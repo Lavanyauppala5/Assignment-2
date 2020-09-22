@@ -1,0 +1,69 @@
+
+
+ASSIGNMENT-2
+                                                                    
+que.1- You are an employer in a company which have a web application for which you have to develop a calculator.Write a program to design a calculator in which you have to give some scientific function like comparing two numbers and find the smaller and greater one as well. 
+Ans:
+def calc(a, b): 
+    if(a>b):
+        print("a is greater")
+        print("b is smaller")
+    else: 
+        print("b is greater")
+        print("a is smaller")
+calc(10,30)     
+Output: b is greater 
+               a is smaller
+Imp:Inorder to achieve the solution we need to use comparison operator '>' it helps to find larger and smaller one. 
+que.2- One girl named as Chandni, have to write a paragraph but by mistake she wrote some letters in upper case  and some in lower case. Now she wants to arrange them in a grammatical manner as capital letter after every specific symbol like comma, full stop, etc. and rest in lower case. Write a program to help her out. 
+Ans:
+Imp:we can achieve this problem by using title function in Python it allows us to set all the data in a structured format like it translates every first letter into capital all rest of the letters to lowercase in every single individual word. 
+For example:
+Given paragraph :
+parag="now a dAyS          technology makes US laZy" 
+Strupara=Parag.title()
+print(Strupara) 
+Output:Now A Days Technology Makes Us Lazy 
+
+que.3- You are an employer in a company, HR gives you a task  to mail a document. You want to find one word and  also count how many times it came in document.
+             {HINT-assume the data as a paragraph of your choice.} 
+Ans:
+Let us consider an example. 
+doc="This documentary mainly about upcoming live sessions provided by XYZ company.this sessions mainly deals with python programming and after that the sessions closed with simple projects." 
+cont=doc.count("sessions") 
+print("the count is", cont) 
+Output : the count is 3
+
+que.4- There is a girl wants to write autobiography of her  favorite player. She writes a paragraph for that but missed some words. Now help her to add those words.
+              {HINT-use format of string function and                                                       data(autobiography)of your choice.} 
+Ans:
+Here is the matter:" hello my name is and am from from". Here i forget to give my name and place now i can solve my problem by using string format function. 
+str= "hello my name is {} and am from {}" 
+name="Lavanya" 
+place="Andhra Pradesh" 
+out=str.format(name,place) 
+print(out) 
+Output:hello my name is Lavanya and am from Andhra pradesh 
+
+que.5- Explain standard data types in detail with example.
+Answer: python is loosely typed language. Therefore no need to mention datatype of variables. 
+DATATYPES:
+1.Immutable 
+Numbers 
+Strings 
+Tuples 
+2.mutable 
+Lists 
+Sets 
+Dictionaries  
+Examples:
+   a=10
+   Str="hello world" 
+   Tup=(15,8,"hi",'hello',5.6)
+   Lst=["Lavanya",19,'A. P']
+   Set={'A', 'E', 'I','O','U',5}
+Dict={'name':'abhi','age' :13} 
+   
+NAME=LAVANYA 
+MOB NUM=9550288739 
+
